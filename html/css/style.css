@@ -1,1 +1,99 @@
-isgsh
+body {
+    background-color: #505050;
+    margin: 18px 0 0 8px;
+}
+.struct {
+    margin: 0 auto;
+    width: 1420px;
+}
+header {
+    height: 137px;
+    width: 1420px;
+    position: relative;
+}
+header {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+.left-place {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+.middle {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+.right-place {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+.form {
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px #000000;
+    background-color: #909090;
+}
+header img.pic {
+    height: 115px;
+    margin: 10px 0 0 10px;
+}
+header img.mag {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+header img.close, header img.load {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+header .close {
+    bottom: 10px;
+}
+
+header .load {
+    top: 10px;
+}
+.left-place {
+    width: 108px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 32px;
+}
+.middle {
+    margin: 20px 0 0 30px;
+    width: 1020px;
+    height: 582px;
+    float: left;
+    position: relative;
+}
+.right-place {
+    width: 105px;
+    height: 410px;
+    float: left;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 35px;
+}
+.middle img {
+    margin: 10px;
+    width: 1000px;
+    height: 562px;
+}
+.form {
+    background-color: #88ff89;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+}
+.form form {
+    height: 22px;
+}
