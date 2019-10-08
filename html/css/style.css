@@ -81,6 +81,10 @@ header .load {
     margin: 20px 0 0 30px;
     padding: 15px 0 0 35px;
 }
+.left-place img {
+    width: 69px;
+    margin-bottom: 6px;
+}
 .middle img {
     margin: 10px;
     width: 1000px;
