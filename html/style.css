@@ -102,7 +102,7 @@ header .load {
 }
 div.brick{
     width: 120px;
-    height: 90px;
+    height: 87px;
     background-repeat: repeat;
     background-image: url(resources/brick.jpg);
     margin: -5px 0 0 -26px;
@@ -117,8 +117,26 @@ div.brick{
     width: 500px;
     height: 150px;
     position: absolute;
-    bottom: 150px;
-    left: 150px;
+    bottom: 125px;
+    left: 220px;
+    padding: 10px;
+    font-family: arial;
+    font-size: 16px;
+    font-stretch: expanded !important;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.form span.capital {
+    font-family: Times;
+    font-size: 31px;
+}
+
+.form span.paint {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+.form span.italic {
+    font-style: italic;
 }
 .form form {
     height: 22px;
