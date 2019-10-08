@@ -46,7 +46,14 @@ header img.mag {
     right: 30px;
 }
 
-header img.close, header img.load {
+header img.close {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+header img.load {
     position: absolute;
     right: 10px;
     height: 20px;
@@ -84,6 +91,19 @@ header .load {
 .left-place img {
     width: 69px;
     margin-bottom: 6px;
+}
+.left-place img.pick-me {
+    border: 4px solid red;
+    border-radius: 4px;
+}
+.right-place img {
+    width: 69px;
+    margin-bottom: 6px;
+}
+.right-place .brick img {
+    width: 50px;
+    height: 26px;
+    margin: -5px 0 0 -20px;
 }
 .middle img {
     margin: 10px;
