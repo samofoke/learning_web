@@ -112,6 +112,9 @@ div.brick{
     width: 1000px;
     height: 562px;
 }
+.form form {
+    height: 22px;
+}
 .form {
     background-color: #88ff89;
     width: 500px;
@@ -126,7 +129,7 @@ div.brick{
     letter-spacing: 1px;
     font-weight: 300;
 }
-.form span.capital {
+span.bold {
     font-family: Times;
     font-size: 31px;
 }
@@ -134,10 +137,39 @@ div.brick{
 .form span.paint {
     text-shadow: 5px 5px 5px #ff0000;
 }
-
-.form span.italic {
+span.italic {
     font-style: italic;
+}
+.form form input[type="text"] {
+    margin-left: 2px;
+    width: 376px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    height: 15px;
 }
 .form form {
     height: 22px;
+}
+a.move1 {
+    position: absolute;
+    /* background: #ff0000; */
+    width: 87px;
+    height: 74px;
+    z-index: 1;
+    margin-top: 365px;
+    margin-left: -691px;
+    /* margin-bottom: 374px; */
+
+}
+a.move2 {
+    position: absolute;
+    /* background: yellow; */
+    width: 87px;
+    height: 74px;
+    z-index: 1;
+    margin-top: 365px;
+    margin-left: -173px;
+    /* margin-bottom: 374px; */
+
 }
