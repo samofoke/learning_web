@@ -1,27 +1,19 @@
 #!/usr/bin/php
-<?PHP
-if ($argc > 1)
+<?php
+$list =  array();
+unset($argv[0]);
+foreach($argv as $i => $item)
 {
-    $arr = preg_split("/[\s]+/", $argv[1]);
-    sort($arr);
-    // foreach($arr as $temp);
-    print_r($arr);
+    if ($i === 0)
+        continue;
+	$value = preg_split("/[\s]+/", $item);
+    foreach($value as $val)
+    {
+		$list[] = $val;
+	}
 }
-?>
-  $tab = implode(" ", $argv);
-  $tab = preg_replace('/\s+/', ' ', $tab);
-  $tab = trim($tab);
-  $tab = explode(" ", $tab);
-  $name = array_shift($tab);
-  sort($tab);
-foreach ($tab as $elem) {
-  echo $elem."\n";
-
- : $argv[1] = trim($argv[1]);
-  $argv[1] = preg_replace('/\s+/', ' ', $argv[1]);
-  $tab = explode(" ", $argv[1]);
-  $first = array_shift($tab);
-  $tab = implode(" ", $tab);
-  if (!empty($tab))
-    echo $tab." ";
-  echo $first."\n";
+sort($list);
+foreach($list as$item)
+{
+    echo "$item\n";
+}

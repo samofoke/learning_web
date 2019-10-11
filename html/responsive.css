@@ -1,0 +1,59 @@
+table {
+    padding: 70px;
+}
+table{
+    width:100%;
+}
+h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+div {
+    text-align: center;
+    
+}
+p {
+    margin: 3px;
+    font-size: 1vw;
+}
+p.atm {
+    text-align: right;
+}
+h2 {
+    text-align: center;
+    margin: 8px;
+    font-size: 1vw;
+}
+td {
+    min-width: 5%;
+}
+td.nonmetal {
+    background-color: #ffffb3;
+}
+td.noblegas {
+    background-color: #99ddff;
+}
+td.alkimetal {
+    background-color:  #bbff99;
+}
+td.alkearth {
+    background-color: #ffb3b3;
+}
+td.halogen {
+    background-color: #b3ffcc;
+}
+td.metalloids {
+    background-color: #ffbf80;
+}
+td.posttransition {
+    background-color: #80ffff;
+}
+td.transition {
+    background-color: #66ff66;
+}
+td.lanthanide {
+    background-color: #00ffbf;
+}
+td.actinide {
+    background-color: #ff704d;
+}
