@@ -1,0 +1,62 @@
+
+body.phase1 {
+    padding: 5%;
+}
+
+.all {
+    margin-inline-start: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 10px 10px 10px black;
+}
+
+ul li {
+    float: left;
+}
+
+img.pic {
+    z-index: -1;
+    margin: 84px;
+    position: absolute;
+    margin-top: -20px;
+    box-shadow: 10px 10px 10px black;
+    padding: 7px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li.main2 {
+    padding-left: 4px;
+}
+
+ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul li a.active {
+    background-color: #4CAF50;
+}
+
+ul li.right {
+    float: right;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  ul li.right, 
+  ul li {
+      float: none;
+    }
+}
